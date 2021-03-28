@@ -7,6 +7,12 @@ import UseEffect from './UseEffect';
 import UseTitle from './UseTitle';
 import UseClick from './UseClick';
 import UseConfirm from './UseConfirm';
+import UsePreventLeave from './UsePreventLeave';
+import UseBeforeLeave from './UseBeforeLeave';
+import UseFadein from './UseFadein';
+import UseNetwork from './UseNetwork';
+import UseScroll from './UseScroll';
+import UseFullScreen from './UseFullScreen';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +23,12 @@ ReactDOM.render(
     <UseTitle />
     <UseClick />
     <UseConfirm />
+    <UsePreventLeave />
+    <UseBeforeLeave />
+    <UseFadein />
+    <UseNetwork />
+    <UseScroll />
+    <UseFullScreen />
   </React.StrictMode>,
   document.getElementById('root')
 );
